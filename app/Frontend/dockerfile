@@ -3,7 +3,7 @@ FROM node:14.15.5
 
 # set working dir
 WORKDIR /app
-# COPY package*.json ./
+COPY package*.json ./
 # install app dependencies
 COPY . /app
 
