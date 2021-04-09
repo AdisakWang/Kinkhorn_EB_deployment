@@ -1,0 +1,22 @@
+body {
+    background-color: DodgerBlue;
+    padding: 20px;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 48 px;
+  }
+
+  @media (max-width:1200px) {
+    .flex-container {
+      display: flex;
+      background-color: DodgerBlue;
+      flex:100%
+    }
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
